@@ -13,6 +13,7 @@ export {default as SelectGallery} from "./SelectGallery"
 export {default as AddAttendees} from "./AddAttendees"
 export {default as AttendeesTable} from "./AttendeesTable"
 export {default as CheckInCard} from "./CheckInCard"
+export {default as AddCheckIn} from "./AddCheckin"
 
 
 

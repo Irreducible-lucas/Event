@@ -1,5 +1,5 @@
 import { search, sort } from "@/src/assets";
-import { AddAttendees, CheckInCard } from "../../component/Admin";
+import { AddCheckIn, CheckInCard } from "../../component/Admin";
 
 const CheckIn = () => {
   return (
@@ -72,7 +72,7 @@ const CheckIn = () => {
             <img src={search} className="w-5 h-5" alt="Search" />
           </div>
           <div className="grid grid-cols-2 gap-3 mt-5 lg:mt-0">
-            <AddAttendees />
+            <AddCheckIn />
             <button className="flex items-center gap-2 py-3 px-7 border-[1px] rounded-xl border-[#D8DDE4]">
               <img src={sort} className="w-6 h-6" alt="Sort" />
               <p className="text-sm font-semibold text-[#849299]">

@@ -27,6 +27,7 @@ const AttendeesTable = () => {
                 <div className="flex  items-center">
                   <div className="ml-3">
                     <span className="font-medium ">{attendancee.name}</span>{" "}
+                    <br />
                     <span className="text-gray-500 text-sm ">
                       ({attendancee.phone})
                     </span>
