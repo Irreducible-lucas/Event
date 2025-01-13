@@ -76,3 +76,19 @@ export type EventProps = {
     attendees: string;
     image: string;
   }
+  export interface BillingItem {
+    id?: number
+    invoice: string;
+    billingDate: string;
+    status: "Paid" | "Failed";
+    amount: string;
+    event: string;
+  }
+export interface PaymentMethodProps{
+  id?: number,
+  cardholder: string,
+  cardNumber: string,
+  expiry: string | number,
+  cvv: string | number,
+  type: string,
+}

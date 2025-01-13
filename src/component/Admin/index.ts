@@ -14,6 +14,7 @@ export {default as AddAttendees} from "./AddAttendees"
 export {default as AttendeesTable} from "./AttendeesTable"
 export {default as CheckInCard} from "./CheckInCard"
 export {default as AddCheckIn} from "./AddCheckin"
+export {default as ProfilePage} from "./ProfilePage"
 
 
 

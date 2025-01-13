@@ -1,6 +1,6 @@
 import { Ticket } from "lucide-react";
 import { event, profilePic } from "../assets";
-import { Attendee, AttendeesProps, CardProps, CheckInTable, EventProps, FooterContact, FooterLink, Link, timeZonesProps } from "../type";
+import { Attendee, AttendeesProps, BillingItem, CardProps, CheckInTable, EventProps, FooterContact, FooterLink, Link, PaymentMethodProps, timeZonesProps } from "../type";
 
 export const links: Link[] = [
   {
@@ -296,3 +296,113 @@ export const checkTable: CheckInTable[] = [
     image: profilePic,
   },
 ];
+
+export const billingData: BillingItem[] = [
+  {
+    id: 1,
+    invoice: "Invoice #011 - Jun 2026",
+    billingDate: "June 25, 2026",
+    status: "Paid",
+    amount: "USD $25.00",
+    event: "lecture"
+  },
+  {id: 2,
+    invoice: "Invoice #010 - May 2026",
+    billingDate: "June 25, 2026",
+    status: "Paid",
+    amount: "USD $35.00",
+     event: "lecture"
+  },
+  {
+    id: 3,
+    invoice: "Invoice #009 - Apr 2026",
+    billingDate: "June 25, 2026",
+    status: "Failed",
+    amount: "USD $40.00",
+    event: "lecture"
+  },
+  {
+    id: 4,
+    invoice: "Invoice #009 - Apr 2026",
+    billingDate: "June 25, 2026",
+    status: "Failed",
+    amount: "USD $40.00",
+    event: "lecture"
+  },
+  {
+    id: 5,
+    invoice: "Invoice #009 - Apr 2026",
+    billingDate: "June 25, 2026",
+    status: "Failed",
+    amount: "USD $40.00",
+    event: "lecture"
+  },
+  {
+    id: 6,
+    invoice: "Invoice #009 - Apr 2026",
+    billingDate: "June 25, 2026",
+    status: "Failed",
+    amount: "USD $40.00",
+    event: "lecture"
+  },
+  {
+    id: 7,
+    invoice: "Invoice #009 - Apr 2026",
+    billingDate: "June 25, 2026",
+    status: "Failed",
+    amount: "USD $40.00",
+    event: "lecture"
+  },
+  {
+    id: 8,
+    invoice: "Invoice #009 - Apr 2026",
+    billingDate: "June 25, 2026",
+    status: "Failed",
+    amount: "USD $40.00",
+    event: "lecture"
+  },
+  {
+    id: 9,
+    invoice: "Invoice #009 - Apr 2026",
+    billingDate: "June 25, 2026",
+    status: "Failed",
+    amount: "USD $40.00",
+    event: "lecture"
+  },
+  {
+    id: 10,
+    invoice: "Invoice #009 - Apr 2026",
+    billingDate: "June 25, 2026",
+    status: "Failed",
+    amount: "USD $40.00",
+    event: "lecture"
+  },
+  {
+    id: 11,
+    invoice: "Invoice #009 - Apr 2026",
+    billingDate: "June 25, 2026",
+    status: "Failed",
+    amount: "USD $40.00",
+    event: "lecture"
+  },
+];
+export const paymentMethods: PaymentMethodProps[] = [
+  {
+    id: 1,
+    cardholder: "John Doe",
+    cardNumber: "**** **** **** 2212",
+    expiry: "08/2028",
+    cvv: "***",
+    type: "Visa",
+  },
+  {
+    id: 2,
+    cardholder: "Jane Doe",
+    cardNumber: "**** **** **** 1234",
+    expiry: "01/2030",
+    cvv: "***",
+    type: "MasterCard",
+  },
+];
+
+
